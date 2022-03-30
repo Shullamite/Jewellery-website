@@ -1,0 +1,97 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url('images/0000003.jpg');
+	background-size: cover;
+	font-size: 18px;
+	font-family: sans-serif;	
+}
+.container{
+     width: 80%;
+    margin: 50px auto;
+}
+.contact-box{
+	background: white;
+	display: flex;
+	font-size: 14px;
+
+}
+.contact-left{
+	flex-basis: 60%;
+	padding: 40px 60px;
+
+}
+.contact-right{
+	flex-basis: 40%;
+	padding: 40px;
+	background: gold;
+	color: white;
+}
+h1 {
+	margin-bottom: 10px
+}
+.container p{
+	margin-bottom: 40px;
+}
+.row{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.row .group{
+	flex-basis: 45%;
+}
+input{
+	width: 100%;
+	border: hidden;
+	
+	outline: none;
+	padding-bottom: 5px;
+
+}
+textarea{
+	width: 100%;
+	border: 1px solid black;
+	outline: none;
+	padding: 10px;
+	box-sizing: border-box;
+}
+label{
+	display: block;
+	margin-bottom:10px;
+	color: black;
+	font-weight: bold;
+}
+button{
+	height: 28px;
+	width: 85px;
+	font-size: 14px;
+	color: gold;
+	background: gold;
+	border: 1px solid gold;
+	outline: none;
+	cursor: pointer;
+	border-radius: 25px;
+	color: white;
+	margin-top: 30px;
+
+}
+.contact-left h3{
+	color: gold;
+	font-weight:600;
+	margin-bottom: 30px;
+}
+tr td:first-child{
+	padding-right: 17px;
+	
+}
+tr td{
+	padding-top: 20px;
+
+
+
+
+
+
